@@ -11,7 +11,7 @@ public class DatabaseConnection {
         }
         String db = "searchEngine";
         String user = "root";
-        String pwd = "Ajmal549mD";
+        String pwd = "12345678";
         return getConnection(db, user, pwd);
     }
     private static Connection getConnection(String db, String user, String pwd){
